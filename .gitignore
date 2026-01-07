@@ -1,0 +1,24 @@
+# Build artifacts
+build/
+*.o
+*.obj
+*.exe
+osdsys-remake
+
+# IDE
+.vscode/
+.vs/
+.idea/
+
+# Assets (user must extract their own)
+assets/extracted/*.bin
+assets/extracted/*.dat
+
+# Cache
+*.cache
+CMakeCache.txt
+CMakeFiles/
+
+# OS
+.DS_Store
+Thumbs.db
